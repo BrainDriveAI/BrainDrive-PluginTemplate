@@ -9,7 +9,7 @@ This template serves as a starting point for [BrainDrive](https://github.com/Bra
 - Development tools and debugging utilities
 - Production-ready code structure and patterns
 
-Use with the [Plugin Developer Quickstart Guide](https://github.com/BrainDriveAI/BrainDrive/blob/main/PLUGIN_DEVELOPER_QUICKSTART.md) to begin developing BrainDrive plugins in 30 minutes or less. 
+Use with the [Plugin Developer Quickstart Guide](https://docs.braindrive.ai/core/getting-started/plugin-developer-quickstart) to begin developing BrainDrive plugins in 30 minutes or less. 
 
 ## 📸 Plugin Template Demo
 
@@ -67,10 +67,10 @@ Use with the [Plugin Developer Quickstart Guide](https://github.com/BrainDriveAI
 - [ ] Customize `lifecycle_manager.py` plugin and module data ([see guide](references/LIFECYCLE_MANAGER_CUSTOMIZATION_GUIDE.md))
 - [ ] Replace template components with your functionality
 - [ ] Update error types and handling for your use cases ([see guide](https://github.com/BrainDriveAI/PluginTemplate/blob/main/DEVELOPER_GUIDE.md))
-- [ ] Add your specific service integrations ([see examples](https://github.com/BrainDriveAI/BrainDrive/blob/main/SERVICE_BRIDGE_EXAMPLES.md))
+- [ ] Add your specific service integrations ([see examples](https://docs.braindrive.ai/services/intro)
 - [ ] Write tests for your plugin functionality
 
-💡 Need help? Check our [comprehensive documentation](https://github.com/BrainDriveAI/BrainDrive/blob/main/DOCUMENTATION_INDEX.md) or visit [community.braindrive.ai](https://community.braindrive.ai/)
+💡 Need help? Check our [comprehensive documentation](https://docs.braindrive.ai) or visit [community.braindrive.ai](https://community.braindrive.ai/)
 
 ## Plugin Structure
 ```
@@ -127,7 +127,7 @@ When contributing to this template:
 
 ## Full Project Documentation Index
 
-[BrainDrive Documentation Index](https://github.com/BrainDriveAI/BrainDrive/blob/main/DOCUMENTATION_INDEX.md)
+[BrainDrive Documentation](https://docs.braindrive.ai)
 
 ## Questions?
 
