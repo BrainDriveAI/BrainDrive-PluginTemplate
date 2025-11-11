@@ -531,8 +531,6 @@ All other fields are optional, but recommended for better user experience:
 ## Related Documentation
 
 - [Plugin Data Field Reference](./Plugin-Data-Field-Reference.md)
-- [Plugin Template Development Guide](../PluginBuild/PluginTemplate/DEVELOPMENT.md)
-- [BrainDrive Service Integration Guide](./Service-Integration-Guide.md) *(coming soon)*
 
 ---
 
