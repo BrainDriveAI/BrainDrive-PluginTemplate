@@ -5,6 +5,7 @@ const deps = require("./package.json").dependencies;
 
 // TEMPLATE: Customize these values for your plugin
 const PLUGIN_NAME = "PluginTemplate"; // TODO: Change this to your plugin name
+const PLUGIN_MODULE_NAME = "PluginTemplateModule"; // TODO: Change this to your module name (must match lifecycle_manager.py)
 const PLUGIN_PORT = 3003; // TODO: Change this to an available port
 
 module.exports = {
@@ -45,8 +46,8 @@ module.exports = {
       library: { type: "var", name: PLUGIN_NAME },
       filename: "remoteEntry.js",
       exposes: {
-        // TEMPLATE: Update the expose path to match your plugin name
-        [`./` + PLUGIN_NAME]: "./src/index",
+        // TEMPLATE: Must match module name from lifecycle_manager.py (not plugin name)
+        [`./` + PLUGIN_MODULE_NAME]: "./src/index",
         "./SettingsExample": "./src/components/SettingsExample",
       },
       shared: {
