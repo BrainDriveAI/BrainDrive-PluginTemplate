@@ -9,7 +9,7 @@ This template serves as a starting point for [BrainDrive](https://github.com/Bra
 - Development tools and debugging utilities
 - Production-ready code structure and patterns
 
-Use with the [Plugin Developer Quickstart Guide](https://docs.braindrive.ai/core/getting-started/plugin-developer-quickstart) to begin developing BrainDrive plugins in 30 minutes or less. 
+Use with the [Plugin Developer Quickstart Guide](https://docs.braindrive.ai/core/plugin-development/quickstart) to begin developing BrainDrive plugins in 30 minutes or less. 
 
 ## Plugin Template Demo
 
