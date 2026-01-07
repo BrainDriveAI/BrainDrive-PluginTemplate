@@ -11,11 +11,11 @@ This template serves as a starting point for [BrainDrive](https://github.com/Bra
 
 Use with the [Plugin Developer Quickstart Guide](https://docs.braindrive.ai/core/getting-started/plugin-developer-quickstart) to begin developing BrainDrive plugins in 30 minutes or less. 
 
-## 📸 Plugin Template Demo
+## Plugin Template Demo
 
 ![Plugin Template Demo](screenshot/PluginTemplateDemoPage.png)
 
-## 📦 What's Included
+## What's Included
 
 ### Core Components
 
@@ -37,7 +37,7 @@ Use with the [Plugin Developer Quickstart Guide](https://docs.braindrive.ai/core
 - **Documentation** - Comprehensive guides and examples
 - **Testing Patterns** - Error handling test examples
 
-## 🚀 Getting Started
+## Getting Started
 
 ### Prerequisites
 
@@ -70,7 +70,7 @@ Use with the [Plugin Developer Quickstart Guide](https://docs.braindrive.ai/core
 - [ ] Add your specific service integrations ([see examples](https://docs.braindrive.ai/services/intro)
 - [ ] Write tests for your plugin functionality
 
-💡 Need help? Check our [comprehensive documentation](https://docs.braindrive.ai) or visit [community.braindrive.ai](https://community.braindrive.ai/)
+Need help? Check our [comprehensive documentation](https://docs.braindrive.ai) or visit [community.braindrive.ai](https://community.braindrive.ai/)
 
 ## Plugin Structure
 ```
@@ -88,7 +88,7 @@ src/
 └── PluginTemplate.tsx  # Main plugin component
 ```
 
-## 🎓 Learning Resources
+## Learning Resources
 
 ### Documentation
 - **[Developer Guide](DEVELOPER_GUIDE.md)** - Comprehensive implementation guide
@@ -103,7 +103,7 @@ src/
 ### Additional Resources
 - **Inline Comments** - Extensive code documentation and TODOs
 
-## 🆘 Troubleshooting
+## Troubleshooting
 
 ### Common Issues
 - **Build errors**: Check TypeScript types and imports
@@ -116,7 +116,7 @@ src/
 - Use the error handler statistics for monitoring
 - Enable development mode for additional debugging info
 
-## 🤝 Contributing
+## Contributing
 
 When contributing to this template:
 1. Maintain backward compatibility
