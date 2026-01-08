@@ -3,10 +3,14 @@ const HtmlWebpackPlugin = require("html-webpack-plugin");
 const { ModuleFederationPlugin } = require("webpack").container;
 const deps = require("./package.json").dependencies;
 
+// =============================================================================
 // TEMPLATE: Customize these values for your plugin
-const PLUGIN_NAME = "PluginTemplate"; // TODO: Change this to your plugin name
-const PLUGIN_MODULE_NAME = "PluginTemplateModule"; // TODO: Change this to your module name (must match lifecycle_manager.py)
-const PLUGIN_PORT = 3003; // TODO: Change this to an available port
+// CRITICAL: PLUGIN_NAME and PLUGIN_MODULE_NAME must be DIFFERENT!
+// See RENAME_CHECKLIST.md for complete renaming instructions
+// =============================================================================
+const PLUGIN_NAME = "PluginTemplate"; // TODO: Change to your plugin name
+const PLUGIN_MODULE_NAME = "PluginTemplateModule"; // TODO: Change to your module name (MUST differ from PLUGIN_NAME!)
+const PLUGIN_PORT = 3003; // TODO: Change to an available port
 
 module.exports = {
   mode: "development",
