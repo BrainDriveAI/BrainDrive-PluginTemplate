@@ -126,9 +126,14 @@ class PluginTemplateLifecycleManager(BaseLifecycleManager):
         }
         
         # TEMPLATE: Define module data - TODO: Customize for your plugin's modules
+        # ========================================================================
+        # CRITICAL: Module name MUST be DIFFERENT from plugin name!
+        # BAD:  plugin name = "MyPlugin", module name = "MyPlugin" (won't work!)
+        # GOOD: plugin name = "MyPlugin", module name = "MyPluginModule"
+        # ========================================================================
         self.module_data = [
             {
-                "name": "PluginTemplateModule",  # Must differ from plugin name
+                "name": "PluginTemplateModule",  # MUST differ from plugin_data["name"] above!
                 "display_name": "Plugin Template",  # TODO: Update display name
                 "description": "A template component for BrainDrive plugins",  # TODO: Update description
                 "icon": "Puzzle",  # TODO: Choose appropriate icon
